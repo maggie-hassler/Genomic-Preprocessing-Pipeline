@@ -1,0 +1,78 @@
+{
+
+	"output_directory": "/path/to/output",
+	"sex_check_results": "sex_check_results/",
+	
+	"fastqc_path": "/path/to/bin/fastqc",
+	"multiqc_path": "/path/to/.conda/envs/multiqc_env2/bin",
+	
+	"adapters": "/path/to/adapters.fa",
+
+	"trimmed_fastq_dir": "/path/to/trimming_output",
+	"ypars_ref": "path/to/ref.fa",
+
+	"y_chrom": "CP086569.2",
+	"x_chrom":"CP068255.2",
+
+	"aggregate_script": "/will/be/added/to/sex-check/aggregate_depth.sh",
+
+	"ypars_mapped_dir": "/path/to/bams",
+
+	"one_sample": [
+		"sample_1"
+	],
+	"test_samples": [
+		"sample_1",
+		"sample_2",
+		"sample_3",
+		"sample_4",
+		"sample_5",
+		"sample_6",
+		"sample_7",
+		"sample_8",
+		"sample_9",
+		"sample_10"
+	],
+	"samples": {
+		"sample_1": {
+			"fq_r1": "/path/to/sample_1_R1.fastq.gz",
+			"fq_r2": "/path/to/sample_1_R2.fastq.gz"
+		},
+		"sample_2": {
+			"fq_r1": "/path/to/sample_2_R1.fastq.gz",
+			"fq_r2": "/path/to/sample_2_R2.fastq.gz"
+		},
+		"sample_3": {
+			"fq_r1": "/path/to/sample_3_R1.fastq.gz",
+			"fq_r2": "/path/to/sample_3_R2.fastq.gz"
+		},
+		"sample_4": {
+			"fq_r1": "/path/to/sample_4_R1.fastq.gz",
+			"fq_r2": "/path/to/sample_4_R2.fastq.gz"
+		},
+		"sample_5": {
+			"fq_r1": "/path/to/sample_5_R1.fastq.gz",
+			"fq_r2": "/path/to/sample_5_R2.fastq.gz"
+		},
+		"sample_6": {
+			"fq_r1": "/path/to/sample_6_R1.fastq.gz",
+			"fq_r2": "/path/to/sample_6_R2.fastq.gz"
+		},
+		"sample_7": {
+			"fq_r1": "/path/to/sample_7_R1.fastq.gz",
+			"fq_r2": "/path/to/sample_7_R2.fastq.gz"
+		},
+		"sample_8": {
+			"fq_r1": "/path/to/sample_8_R1.fastq.gz",
+			"fq_r2": "/path/to/sample_8_R2.fastq.gz"
+		}, 
+		"sample_9": {
+			"fq_r1": "/path/to/sample_9_R1.fastq.gz",
+			"fq_r2": "/path/to/sample_9_R2.fastq.gz"
+		},
+		"sample_10": {
+			"fq_r1": "/path/to/sample_10_R1.fastq.gz",
+			"fq_r2": "/path/to/sample_10_R2.fastq.gz"
+		}
+	}
+}
