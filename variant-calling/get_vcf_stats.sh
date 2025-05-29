@@ -9,8 +9,6 @@
 #SBATCH --partition=htc
 #SBATCH --mem=16G
 
-# modified on 5/28/25 for WGS chr1 
-
 # exit on silent errors
 set -euo pipefail
 
